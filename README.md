@@ -2,6 +2,8 @@
 
 Extra themes for [cliamp](https://github.com/bjarneo/cliamp). Drop-in files, no rebuild needed — user themes override built-ins with the same name.
 
+![preview](assets/preview-cliamp-themes.png)
+
 ## Themes
 
 | Theme | Source |
