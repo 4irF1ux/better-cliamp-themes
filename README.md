@@ -17,7 +17,28 @@ Extra themes for [cliamp](https://github.com/bjarneo/cliamp). Drop-in files, no 
 
 ## Install
 
-Script (Windows):
+No clone needed (public repo):
+
+```powershell
+irm https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.ps1 | iex
+```
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.sh | sh
+```
+
+Only some themes:
+
+```powershell
+$env:BCT_ONLY="rose-pine-moon,onedark"
+irm https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.ps1 | iex
+```
+
+```sh
+BCT_ONLY="rose-pine-moon,onedark" curl -fsSL https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.sh | sh
+```
+
+From a clone (alternative):
 
 ```powershell
 .\install.ps1 --all
