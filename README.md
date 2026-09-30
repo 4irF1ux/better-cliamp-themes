@@ -17,66 +17,41 @@ Extra themes for [cliamp](https://github.com/bjarneo/cliamp). Drop-in files, no 
 
 ## Install
 
-No clone needed (public repo):
+### Windows
 
 ```powershell
 irm https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.ps1 | iex
 ```
+
+### Linux
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.sh | sh
 ```
 
-Only some themes:
-
-```powershell
-$env:BCT_ONLY="rose-pine-moon,onedark"
-irm https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.ps1 | iex
-```
-
-```sh
-BCT_ONLY="rose-pine-moon,onedark" curl -fsSL https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.sh | sh
-```
-
-From a clone (alternative):
-
-```powershell
-.\install.ps1 --all
-.\install.ps1 --only rose-pine-moon,onedark
-.\install.ps1 --list
-```
-
-Script (Linux/macOS):
-
-```sh
-./install.sh --all
-./install.sh --only=rose-pine-moon,onedark
-./install.sh --list
-```
-
-Manual:
-
-```powershell
-Copy-Item themes/rose-pine-moon.toml "$env:APPDATA\cliamp\themes\" -Force
-```
-
-```sh
-cp themes/rose-pine-moon.toml ~/.config/cliamp/themes/
-```
-
-Then:
+Then run cliamp and pick a theme:
 
 ```sh
 cliamp theme list
-cliamp --start-theme "rose-pine-moon"
+cliamp --start-theme "rose-pine"
 ```
 
-Isolated testing (keeps your stable config untouched):
+Manual (clone first, only if the lines above don't work for you):
+
+### Windows
 
 ```powershell
-$env:CLIAMP_CONFIG_DIR="$env:APPDATA\cliamp-dev"
+git clone https://github.com/4irF1ux/better-cliamp-themes
+cd better-cliamp-themes
 .\install.ps1 --all
-cliamp --start-theme "rose-pine-moon"
+```
+
+### Linux
+
+```sh
+git clone https://github.com/4irF1ux/better-cliamp-themes
+cd better-cliamp-themes
+./install.sh --all
 ```
 
 ## Format
