@@ -1,4 +1,4 @@
-# better-cliamp-themes installer (Windows).
+# extended-cliamp-themes installer (Windows).
 # Usage: .\install.ps1 [--all] [--only name1,name2] [--list]
 # Destination mirrors cliamp's config resolution:
 #   CLIAMP_CONFIG_DIR > XDG_CONFIG_HOME\cliamp > $HOME\.config\cliamp > %APPDATA%\cliamp

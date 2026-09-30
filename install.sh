@@ -1,5 +1,5 @@
 #!/bin/sh
-# better-cliamp-themes installer (Linux/macOS).
+# extended-cliamp-themes installer (Linux/macOS).
 # Usage: ./install.sh [--all] [--only name1,name2] [--list]
 # Destination mirrors cliamp's config resolution:
 #   CLIAMP_CONFIG_DIR > XDG_CONFIG_HOME/cliamp > ~/.config/cliamp

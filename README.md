@@ -1,4 +1,4 @@
-# better-cliamp-themes
+# extended-cliamp-themes
 
 Extra themes for [cliamp](https://github.com/bjarneo/cliamp). Drop-in files, no rebuild needed — user themes override built-ins with the same name.
 
@@ -22,13 +22,13 @@ Extra themes for [cliamp](https://github.com/bjarneo/cliamp). Drop-in files, no 
 ### Windows
 
 ```powershell
-irm https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.ps1 | iex
+irm https://raw.githubusercontent.com/4irF1ux/extended-cliamp-themes/main/install-remote.ps1 | iex
 ```
 
 ### Linux
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/4irF1ux/better-cliamp-themes/main/install-remote.sh | sh
+curl -fsSL https://raw.githubusercontent.com/4irF1ux/extended-cliamp-themes/main/install-remote.sh | sh
 ```
 
 Then run cliamp and pick a theme:
@@ -43,16 +43,16 @@ Manual (clone first, only if the lines above don't work for you):
 ### Windows
 
 ```powershell
-git clone https://github.com/4irF1ux/better-cliamp-themes
-cd better-cliamp-themes
+git clone https://github.com/4irF1ux/extended-cliamp-themes
+cd extended-cliamp-themes
 .\install.ps1 --all
 ```
 
 ### Linux
 
 ```sh
-git clone https://github.com/4irF1ux/better-cliamp-themes
-cd better-cliamp-themes
+git clone https://github.com/4irF1ux/extended-cliamp-themes
+cd extended-cliamp-themes
 ./install.sh --all
 ```
 
