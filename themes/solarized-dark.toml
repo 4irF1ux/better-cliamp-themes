@@ -1,0 +1,8 @@
+# Solarized Dark — MIT, ethanschoonover.com/solarized
+bg = "#002b36"
+accent = "#268bd2"
+bright_fg = "#93a1a1"
+fg = "#839496"
+green = "#859900"
+yellow = "#b58900"
+red = "#dc322f"

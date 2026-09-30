@@ -1,0 +1,8 @@
+# OneDark — MIT, Atom One Dark
+bg = "#282c34"
+accent = "#61afef"
+bright_fg = "#abb2bf"
+fg = "#5c6370"
+green = "#98c379"
+yellow = "#e5c07b"
+red = "#e06c75"
